@@ -103,11 +103,11 @@ logo_footer = "images/atlantic-therapies-logo.png"
 top_header = true
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "WebPlusUn"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@bexer.com"
+address = "Avenue des Pyrénées, Anglet"
+mobile = "06.62.61.32.34"
+email = "fabiennedumoretparis@gmail.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
