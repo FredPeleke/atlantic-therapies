@@ -1,13 +1,13 @@
 ########################### Default configuration ######################
-baseURL = ""
-title = "Bexar Hugo Template"
+baseURL = "https://examplesite.com/"
+title = "Cabinet Atlantic Therapies"
 theme = "bexar-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "bexer" # get your shortname form here : https://disqus.com
+disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["En"] # desable language from here
 
@@ -86,12 +86,12 @@ hasChildren = true
 
 # footer menu
 [[menu.footer]]
-name = "Terms of Service"
+name = "Mentions legales"
 URL = "terms"
 weight = 1
 
 [[menu.footer]]
-name = "Privacy Policy"
+name = "Politique de confidentialite"
 URL = "privacy-policy"
 weight = 2
 
@@ -103,11 +103,11 @@ logo_footer = "images/atlantic-therapies-logo.png"
 top_header = true
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "WebPlusUn"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@bexer.com"
+address = "Avenue des Pyrénées, Anglet"
+mobile = "06 62 61 32 34"
+email = "fabiennedumoretparis@gmail.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -162,7 +162,7 @@ home = "Home"
 # footer content
 footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit. Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit."
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 [WebPlusUn](https://webplusun.fr)"
 
 
 ################################### French language #####################################
@@ -175,4 +175,4 @@ home = "Accueil"
 # footer content
 footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit. Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit."
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 [WebPlusUn](https://webplusun.fr)"
