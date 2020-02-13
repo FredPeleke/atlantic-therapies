@@ -10,7 +10,7 @@ slider:
       bg_image : "images/slider/Atlantic-therapie-hero1.jpg"
       animation : "fadeInUp" # animation prise sur : https://daneden.github.io/animate.css/
       button:
-        enable : true
+        enable : false
         label : "more details"
         link : "about"
         animation : "zoomIn" # animation prise sur : https://daneden.github.io/animate.css/
