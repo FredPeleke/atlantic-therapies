@@ -97,8 +97,8 @@ weight = 2
 
 ########################### Default parameters ######################
 [params]
-logo = "images/logo.png"
-logo_footer = "images/logo-alt.png"
+logo = "images/atlantic-therapies-logo.png"
+logo_footer = "images/atlantic-therapies-logo.png"
 # top header
 top_header = true
 # Meta data
