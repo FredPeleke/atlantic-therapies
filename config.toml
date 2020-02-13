@@ -1,5 +1,5 @@
 ########################### Default configuration ######################
-baseURL = "https://examplesite.com/"
+baseURL = ""
 title = "Bexar Hugo Template"
 theme = "bexar-hugo"
 # post pagination
