@@ -72,7 +72,7 @@
 {{ if $data.homepage.feature.enable }}
 {{ "<!-- déontologie & éthique -->" | safeHTML }}
 {{ with $data.homepage.feature }}
-<section class="section bg-gray bg-dots">
+<section class="section">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col-lg-4 offset-lg-2 order-lg-1 order-2">
@@ -116,7 +116,7 @@
 {{ partial "team.html" . }}
 {{ end }}
 
-{{ "<!-- case study -->" | safeHTML }}
+{{ "<!-- étude de cas -->" | safeHTML }}
 {{ if $data.homepage.project.enable}}
 <section class="section pt-0">
   {{ with $data.homepage.project }}
@@ -142,7 +142,7 @@
   <div class="container-fluid px-0">
     <div class="row no-gutters">
       {{ range first 4 ( where .Site.RegularPages "Type" "project")}}
-      {{ "<!-- project-item -->" | safeHTML }}
+      {{ "<!-- projet -->" | safeHTML }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         {{ .Render "project"}}
       </div>
@@ -151,7 +151,7 @@
   </div>
 </section>
 {{end}}
-{{ "<!-- /case study -->" | safeHTML }}
+{{ "<!-- /étude de cas -->" | safeHTML }}
 
 {{ if $data.homepage.testimonial.enable }}
 {{ partial "testimonial.html" . }}
@@ -201,7 +201,7 @@
       {{ end }}
     </div>
   </div>
-  {{ "<!-- background shapes -->" | safeHTML }}
+  {{ "<!-- background -->" | safeHTML }}
   <img class="img-fluid blog-shape-left" src="{{`images/backgrounds/blog-bg-left.webp` | relURL }}" alt=""
     onerror="this.src='{{`images/backgrounds/blog-bg-left.png` | relURL }}'">
   <img class="img-fluid blog-shape-right" src="{{`images/backgrounds/blog-bg-right.webp` | relURL }}" alt=""
