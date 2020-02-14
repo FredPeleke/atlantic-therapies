@@ -13,7 +13,7 @@
       <div class="col-10 mx-auto">
         <div class="testimonial-slider">
           {{ range .testimonial_item }}
-          {{ "<!-- slider-item -->" | safeHTML }}
+          {{ "<!-- slider -->" | safeHTML }}
           <div class="text-center">
             <img class="img-fluid box-shadow rounded-circle mb-5 d-inline-block" src="{{ .client_image | absURL }}" alt="{{ .name }}">
             <div class="bg-quote text-center pt-md-4">
