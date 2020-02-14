@@ -3,11 +3,11 @@ slider:
   enable : true
   slider_item:
     # slider item
-    - subtitle : "We are here to"
-      title : "Planning Business"
+    - subtitle : ""
+      title : "Psychopraticienne & Hypnothérapeute"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      bg_image_webp : "images/slider/banner-1.webp"
-      bg_image : "images/slider/banner-1.jpg"
+      bg_image_webp : "images/slider/Atlantic-therapie-hero1.webp"
+      bg_image : "images/slider/Atlantic-therapie-hero1.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
       button:
         enable : true
@@ -15,48 +15,10 @@ slider:
         link : "about"
         animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
         
-    # slider item
-    - subtitle : "We are here to"
-      title : "Planning Business"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      bg_image_webp : "images/slider/banner-2.webp"
-      bg_image : "images/slider/banner-2.jpg"
-      animation : "fadeInDown" # animation select from : https://daneden.github.io/animate.css/
-      button:
-        enable : true
-        label : "more details"
-        link : "about"
-        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
-        
-    # slider item
-    - subtitle : "We are here to"
-      title : "Planning Business"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      bg_image_webp : "images/slider/banner-3.webp"
-      bg_image : "images/slider/banner-3.jpg"
-      animation : "fadeInLeft" # animation select from : https://daneden.github.io/animate.css/
-      button:
-        enable : true
-        label : "more details"
-        link : "about"
-        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
-        
-    # slider item
-    - subtitle : "We are here to"
-      title : "Planning Business"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      bg_image_webp : "images/slider/banner-4.webp"
-      bg_image : "images/slider/banner-4.jpg"
-      animation : "fadeInRight" # animation select from : https://daneden.github.io/animate.css/
-      button:
-        enable : true
-        label : "more details"
-        link : "about"
-        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
 banner_feature:
-  enable : true
+  enable : false
   # Max use 4 item
   feature_item:
     # banner feature item loop
@@ -96,7 +58,7 @@ about:
 
 ################################## funfacts ###############################
 funfacts :
-  enable : true
+  enable : false
   funfacts_item :
     # fanfacts item loop
     - name : "project done"
@@ -121,7 +83,7 @@ funfacts :
 
 ################################# feature ############################################
 feature:
-  enable : true
+  enable : false
   subtitle : "Why Choose Us"
   title : "Why They Choose Bexar"
   image_webp : "images/feature/feature.webp"
@@ -140,21 +102,21 @@ feature:
 
 ################################# service ############################################
 service:
-  enable : true
+  enable : false
   subtitle : "Best Service"
   title : "Service We Provide"
   # service item comes from "content/*/service" folder
 
 ################################# team ##############################################
 team:
-  enable : true
+  enable : false
   subtitle : "Our Team"
   title : "We Are Dynamic Team and <br> Business Agency"
   # team member comes from "content/*/team" folder
 
 ################################# project ############################################
 project:
-  enable : true
+  enable : false
   subtitle : "Case Study"
   title : "Bexar Case Studies"
   button:
@@ -165,7 +127,7 @@ project:
 
 ################################# testimonial #########################################
 testimonial:
-  enable : true
+  enable : false
   subtitle : "Testimonials"
   title : "What Clients Are Say?"
   testimonial_item:
@@ -190,7 +152,7 @@ testimonial:
 
 ################################# blog ################################################
 cta:
-  enable : true
+  enable : false
   title : "Bexar give the smart solution for your business"
   bg_image_webp : "images/backgrounds/cta-lg.webp"
   bg_image : "images/backgrounds/cta-lg.jpg"
