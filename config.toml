@@ -22,42 +22,21 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.footer]]
-URL = "privacy-policy"
-name = "Politique de confidentialité"
-weight = 2
-[[menu.footer]]
 URL = "terms"
 name = "Mentions légales"
 weight = 1
-[[menu.main]]
-URL = "project"
-name = "Project"
-parent = "Pages"
-weight = 1
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 6
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-[[menu.main]]
-URL = "team"
-name = "Team"
-weight = 4
+[[menu.footer]]
+URL = "privacy-policy"
+name = "Politique de confidentialité"
+weight = 2
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
-[[menu.main]]
-URL = "service"
-name = "Service"
 weight = 2
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
+URL = "contact"
+name = "Contact"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
