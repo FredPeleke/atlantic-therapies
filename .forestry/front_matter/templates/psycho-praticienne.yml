@@ -3,8 +3,8 @@ label: Pages Atlantic
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
+  name: titre
+  label: titre
 - type: text
   name: description
   label: description
