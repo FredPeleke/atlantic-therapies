@@ -99,12 +99,12 @@ feature:
   feature_item:
     # feature item loop
     - name : "Confidentialité et secret professionnel"
-      icon : "fa-snowflake-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-key" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
       content : "Tout ce que nous évoquerons dans mon cabinet est soumis au secret professionnel et ne pourra être rapporté à un tiers qu’en cas de mise en danger de la personne consultante pour elle-même ou pour les autres."
       
     # feature item loop
     - name : "Ecoute bienveillante et non jugement"
-      icon : "fa-code" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-pencil-square-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
       content : "Vous ne serez jamais jugé mais toujours écouté de façon bienveillante en vue d’une aide la plus adaptée possible."
 
 ################################# service ############################################
