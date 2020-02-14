@@ -42,11 +42,11 @@ URL = "pour-qui"
 name = "Pour qui"
 weight = 4
 [[menu.main]]
-URL = "Hypnose"
+URL = "hypnose"
 name = "Hypnose"
 weight = 3
 [[menu.main]]
-URL = "Psycho-praticienne"
+URL = "psycho-praticienne"
 name = "Psycho-praticienne"
 weight = 2
 [outputs]
