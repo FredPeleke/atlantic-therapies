@@ -91,7 +91,7 @@ funfacts :
 ################################# feature ############################################
 feature:
   enable : true
-  subtitle : "Why Choose Us"
+  subtitle : ""
   title : "DEONTOLOGIE & ETHIQUE PERSONNELLE"
   image_webp : ""
   image : "images/feature/Atlantic-therapie-phare2.jpg"
@@ -134,28 +134,16 @@ project:
 
 ################################# testimonial #########################################
 testimonial:
-  enable : false
-  subtitle : "Testimonials"
-  title : "What Clients Are Say?"
+  enable : true
+  subtitle : ""
+  title : "Fabienne Dumoret"
   testimonial_item:
     # testimonial item loop
     - client_image : "images/testimonial/client-1.jpg"
-      name : "Dominic Allen"
+      name : "Fabienne Dumoret"
       designation : "Designer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
-      
-    # testimonial item loop
-    - client_image : "images/testimonial/client-2.jpg"
-      name : "Alex Pitt"
-      designation : "Designer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
-
-    # testimonial item loop
-    - client_image : "images/testimonial/client-3.jpg"
-      name : "John Doe"
-      designation : "Designer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
-
+      content : "Après une carrière parisienne de 20 ans dans l’accompagnement et le conseil en communication, j’ai décidé d’un retour aux sources géographique en adéquation avec les valeurs qui m’animent depuis toujours suivi une formation à la profession de psycho-praticienne et à la pratique de l’hypnose Ericksonienne pour lesquelles j’ai obtenu les certifications professionnelles. "
+ 
 
 ################################# blog ################################################
 cta:
