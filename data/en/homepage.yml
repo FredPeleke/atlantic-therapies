@@ -45,7 +45,7 @@ banner_feature:
 ################################## about ####################################
 about:
   enable : true
-  subtitle : "About Us"
+  subtitle : ""
   title : "We Are Dynamic Team and Business Agency"
   content : "Je vous accompagne pour vous aider à trouver en vous les ressources ou les réponses nécessaires pour avancer, traverser une épreuve ou encore atteindre un objectif.
 
@@ -59,7 +59,7 @@ Je m’inscris dans une relation d’aide et d’écoute actives et bienveillant
   image_webp : "images/about/about-us.webp"
   image : "images/about/about-us.png"
   button:
-    enable : true;
+    enable : false
     label : "more service"
     link : "service"
 
