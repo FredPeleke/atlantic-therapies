@@ -1,6 +1,6 @@
 ---
-label: Psycho-praticienne
-hide_body: true
+label: Pages Atlantic
+hide_body: false
 fields:
 - type: text
   name: title
