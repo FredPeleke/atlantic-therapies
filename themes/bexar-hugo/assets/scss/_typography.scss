@@ -17,7 +17,7 @@ p, .paragraph {
   font-family: $primary-font;
 }
 
-h1,h2 {
+h1 {
   color: $white;
   font-family: $secondary-font;
   text-transform: uppercase;
@@ -26,7 +26,7 @@ h1,h2 {
   transition: .2s ease;
 }
 
-h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
   text-transform: uppercase;
