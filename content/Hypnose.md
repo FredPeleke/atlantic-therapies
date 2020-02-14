@@ -4,6 +4,9 @@ bg_image_webp = ""
 description = ""
 texte = ""
 titre = "Hypnose Ericksonienne"
+[menu.main]
+name = "Hypnose"
+weight = 2
 
 +++
 > La croissance de la personnalité se fait à partir de l’inconscient. - Jung
