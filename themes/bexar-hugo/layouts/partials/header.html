@@ -2,23 +2,23 @@
 <header>
   {{ if .Site.Params.top_header }}
   {{ "<!-- top header -->" | safeHTML }}
-  <div class="top-header bg-secondary pt-2 pb-1">
+  <div class="top-header bg-primary pt-2 pb-1">
     <div class="container">
       <div class="row align-items-center">
-        {{ "<!-- social icons -->" | safeHTML }}
+        {{ "<!-- mel et mobile -->" | safeHTML }}
+        <div class="col-lg-6 col-md-6 text-md-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+            <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2" href="tel:{{ .Site.Params.mobile }}">{{ i18n "call_now" }}: <span class="text-primary">{{ .Site.Params.mobile }}</span></a></li>
+          </ul>
+        </div>
+        {{ "<!-- réseaux sociaux -->" | safeHTML }}
         <div class="col-lg-6 col-md-6 text-center text-md-left">
           <span class="text-white">{{ i18n "connect_with_us" }}:</span>
           <ul class="list-inline d-inline-block">
             {{ range .Site.Params.social }}
             <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
             {{ end }}
-          </ul>
-        </div>
-        {{ "<!-- mail and phone -->" | safeHTML }}
-        <div class="col-lg-6 col-md-6 text-md-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
-            <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2" href="tel:{{ .Site.Params.mobile }}">{{ i18n "call_now" }}: <span class="text-primary">{{ .Site.Params.mobile }}</span></a></li>
           </ul>
         </div>
       </div>
