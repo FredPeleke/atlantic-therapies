@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: config.toml
   label: Config
   create: documents
-  match: config.toml
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
