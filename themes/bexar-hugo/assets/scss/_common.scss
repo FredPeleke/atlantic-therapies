@@ -8,7 +8,7 @@ body {
   color: $white;
 }
 
-/* preloader */
+/* ----------------------- preloader ----------------------- */
 
 .preloader {
   position: fixed;
@@ -169,7 +169,12 @@ a h5 {
   border-color: $border-color !important;
 }
 
-/* overlay */
+/* ----------------------- navigation ----------------------- */
+
+.sticky-top {
+  position:sticky;
+}
+/* ----------------------- overlay ----------------------- */
 
 .overlay {
   position: relative;
@@ -453,17 +458,17 @@ a.text-dark {
   }
 }
 
-/* breadcrumb */
+/* ----------------------- breadcrumb ----------------------- */
 .breadcrumb-item+.breadcrumb-item::before {
   color: $white;
 }
 
-/* google map */
+/* ----------------------- google map ----------------------- */
 #map_canvas {
   height: 500px;
 }
 
-/* form control */
+/* ----------------------- form control ----------------------- */
 
 .form-control {
   height: 55px;
@@ -491,9 +496,9 @@ textarea.form-control-sm {
   height: 100px;
 }
 
-/* /form control */
+/* ----------------------- /form control ----------------------- */
 
-/* markdown style */
+/* ----------------------- markdown style ----------------------- */
 .content {
   * {
     margin-bottom: 20px;
@@ -574,4 +579,4 @@ textarea.form-control-sm {
   }
 }
 
-/* /markdown style */
+/* ----------------------- /markdown style ----------------------- */
