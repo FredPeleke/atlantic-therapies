@@ -55,9 +55,9 @@ Le choix et la durée de la thérapie sont définis en fonction de la personne e
 
 Je m’inscris dans une relation d’aide et d’écoute actives et bienveillantes, et dans une démarche de confiance réciproque avec les personnes qui me consultent.
 "
-  bg_image : "images/backgrounds/about-us-bg.png"
+  bg_image : ""
   image_webp : ""
-  image : "images/about/Atlantic-therapie-Fabienne-Dumoret.jpg"
+  image : "images/about/fabienne-Dumoret.jpg"
   button:
     enable : true
     label : "en savoir plus"
