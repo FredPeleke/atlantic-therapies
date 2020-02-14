@@ -38,15 +38,15 @@ URL = "blog"
 name = "Blog"
 weight = 5
 [[menu.main]]
-URL = "pour-qui.md"
+URL = "pour-qui"
 name = "Pour qui"
 weight = 4
 [[menu.main]]
-URL = "Hypnose.md"
+URL = "Hypnose"
 name = "Hypnose"
 weight = 3
 [[menu.main]]
-URL = "Psycho-praticienne.md"
+URL = "Psycho-praticienne"
 name = "Psycho-praticienne"
 weight = 2
 [outputs]
