@@ -8,15 +8,6 @@ fields:
 - type: text
   name: description
   label: description
-- name: texte
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: texte
 - type: text
   name: bg_image_webp
   label: bg_image_webp
