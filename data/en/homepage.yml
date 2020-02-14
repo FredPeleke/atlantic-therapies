@@ -90,7 +90,7 @@ funfacts :
 
 ################################# feature ############################################
 feature:
-  enable : false
+  enable : true
   subtitle : "Why Choose Us"
   title : "Why They Choose Bexar"
   image_webp : "images/feature/feature.webp"
