@@ -61,7 +61,7 @@
 
 {{ if $data.homepage.about.enable }}
 {{ "<!-- à propos -->" | safeHTML }}
-<section class="section pt-0">
+<section class="section pt-0 bg-dots">
   {{ partial "about.html" . }}
 </section>
 {{ "<!-- /à propos -->" | safeHTML }}
@@ -116,7 +116,7 @@
 {{ partial "team.html" . }}
 {{ end }}
 
-{{ "<!-- étude de cas -->" | safeHTML }}
+{{ "<!-- case study -->" | safeHTML }}
 {{ if $data.homepage.project.enable}}
 <section class="section pt-0">
   {{ with $data.homepage.project }}
@@ -151,7 +151,7 @@
   </div>
 </section>
 {{end}}
-{{ "<!-- /étude de cas -->" | safeHTML }}
+{{ "<!-- /case study -->" | safeHTML }}
 
 {{ if $data.homepage.testimonial.enable }}
 {{ partial "testimonial.html" . }}
