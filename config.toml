@@ -30,12 +30,12 @@ URL = "privacy-policy"
 name = "Politique de confidentialité"
 weight = 2
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-[[menu.main]]
 URL = "contact"
 name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "blog"
+name = "Blog"
 weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
