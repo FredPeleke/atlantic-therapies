@@ -156,6 +156,6 @@ cta:
 ################################# blog ################################################
 blog:
   enable : true
-  subtitle : "Mes derniers articles"
-  title : ""
+  subtitle : ""
+  title : "Mes derniers articles"
   # blog post comes from "content/*/blog" folder
