@@ -88,7 +88,7 @@
               <div class="icon-bg water-wave"><i class="fa {{ .icon }} icon text-primary"></i></div>
             </div>
             <div>
-              <h4>{{ .name | markdownify }}</h4>
+              <h3>{{ .name | markdownify }}</h3>
               {{ .content | markdownify }}
             </div>
           </li>
@@ -187,7 +187,7 @@
       <div class="col-12">
         {{ with $data.homepage.blog }}
         <div class="section-title-border"></div>
-        <h3 class="section-title-sm">{{ .subtitle | markdownify }}</h3>
+        <span class="section-title-sm">{{ .subtitle | markdownify }}</span>
         <span class="section-title">{{ .title }}</span>
         {{ end }}
       </div>
