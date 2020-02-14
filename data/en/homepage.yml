@@ -159,6 +159,6 @@ cta:
 ################################# blog ################################################
 blog:
   enable : true
-  subtitle : "Latest News"
-  title : "Learn From Bexar"
+  subtitle : "Mes derniers articles"
+  title : ""
   # blog post comes from "content/*/blog" folder
