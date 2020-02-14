@@ -1,0 +1,16 @@
+---
+label: Psycho-praticienne
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: bg_image_webp
+  label: bg_image_webp
+- type: file
+  name: bg_image
+  label: bg_image
