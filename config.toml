@@ -29,26 +29,7 @@ weight = 1
 URL = "privacy-policy"
 name = "Politique de confidentialité"
 weight = 2
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 6
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 5
-[[menu.main]]
-URL = "pour-qui"
-name = "Pour qui"
-weight = 4
-[[menu.main]]
-URL = "hypnose"
-name = "Hypnose"
-weight = 3
-[[menu.main]]
-URL = "psycho-praticienne"
-name = "Psycho-praticienne"
-weight = 2
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
