@@ -16,7 +16,7 @@ sections:
   match: "*"
 - type: directory
   path: content/english
-  label: English
+  label: Pages de base
   create: all
   match: "**/*"
 upload_dir: static/uploads
