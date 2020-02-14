@@ -90,8 +90,8 @@ feature:
   enable : true
   subtitle : ""
   title : "DEONTOLOGIE & ETHIQUE PERSONNELLE"
-  image_webp : ""
-  image : "images/feature/Atlantic-therapie-phare2.jpg"
+  image_webp : "images/feature/Atlantic-therapie-phare.webp"
+  image : "images/feature/Atlantic-therapie-phare.jpg"
   content : ""
   feature_item:
     # feature item loop
