@@ -24,4 +24,5 @@ fields:
   name: bg_image
   label: bg_image
 pages:
+- content/Hypnose.md
 - content/Psycho-praticienne.md
