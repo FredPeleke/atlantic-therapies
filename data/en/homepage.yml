@@ -93,8 +93,8 @@ feature:
   enable : true
   subtitle : "Why Choose Us"
   title : "DEONTOLOGIE & ETHIQUE PERSONNELLE"
-  image_webp : "images/feature/Atlantic-therapie-phare.webp"
-  image : "images/feature/Atlantic-therapie-phare.jpg"
+  image_webp : ""
+  image : "images/feature/Atlantic-therapie-phare2.jpg"
   content : ""
   feature_item:
     # feature item loop
