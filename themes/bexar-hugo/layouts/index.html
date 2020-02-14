@@ -70,9 +70,9 @@
 
 
 {{ if $data.homepage.feature.enable }}
-{{ "<!-- feature -->" | safeHTML }}
+{{ "<!-- déontologie & éthique -->" | safeHTML }}
 {{ with $data.homepage.feature }}
-<section class="section">
+<section class="section bg-gray bg-dots">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col-lg-4 offset-lg-2 order-lg-1 order-2">
@@ -82,7 +82,7 @@
         <p class="mb-5">{{ .content | markdownify }}</p>
         <ul class="list-unstyled">
           {{ range .feature_item }}
-          {{ "<!-- feature item -->" | safeHTML }}
+          {{ "<!-- détails -->" | safeHTML }}
           <li class="d-flex align-items-center mb-5">
             <div class="text-center mr-4">
               <div class="icon-bg water-wave"><i class="fa {{ .icon }} icon text-primary"></i></div>
@@ -105,7 +105,7 @@
   </div>
 </section>
 {{ end }}
-{{ "<!-- /feature -->" | safeHTML }}
+{{ "<!-- /déontologie & éthique -->" | safeHTML }}
 {{ end }}
 
 {{ if $data.homepage.service.enable }}
