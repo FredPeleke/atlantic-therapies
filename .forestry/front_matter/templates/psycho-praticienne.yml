@@ -23,3 +23,5 @@ fields:
 - type: file
   name: bg_image
   label: bg_image
+pages:
+- content/Psycho-praticienne.md
