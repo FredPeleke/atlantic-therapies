@@ -32,14 +32,22 @@ weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 4
+weight = 6
 [[menu.main]]
 URL = "blog"
 name = "Blog"
+weight = 5
+[[menu.main]]
+URL = "pour-qui.md"
+name = "Pour qui"
+weight = 4
+[[menu.main]]
+URL = "Hypnose.md"
+name = "Hypnose"
 weight = 3
 [[menu.main]]
-URL = "Hypnose"
-name = "Hypnose"
+URL = "Psycho-praticienne.md"
+name = "Psycho-praticienne"
 weight = 2
 [outputs]
 home = ["HTML", "RSS", "JSON"]
