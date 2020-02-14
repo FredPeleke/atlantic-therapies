@@ -140,8 +140,8 @@ testimonial:
   testimonial_item:
     # testimonial item loop
     - client_image : "images/testimonial/client-1.jpg"
-      name : "Fabienne Dumoret"
-      designation : "Designer"
+      name : ""
+      designation : ""
       content : "Après une carrière parisienne de 20 ans dans l’accompagnement et le conseil en communication, j’ai décidé d’un retour aux sources géographique en adéquation avec les valeurs qui m’animent depuis toujours suivi une formation à la profession de psycho-praticienne et à la pratique de l’hypnose Ericksonienne pour lesquelles j’ai obtenu les certifications professionnelles. "
  
 
