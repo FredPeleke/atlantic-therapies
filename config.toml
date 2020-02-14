@@ -10,7 +10,7 @@ contentDir = "content/english"
 copyright = "Copyright &copy; 2020 [WebPlusUn](https://webplusun.fr)"
 footer_content = ""
 home = "Home"
-languageCode = "en-us"
+languageCode = "fr-fr"
 languageName = "En"
 weight = 1
 [Languages.fr]
