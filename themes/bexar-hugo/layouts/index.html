@@ -14,7 +14,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6" data-duration-in=".3" data-animation-in="{{ .animation }}" data-delay-in=".1">
-            <h4 class="mb-0 letter-spacing">{{ .subtitle | markdownify }}</h4>
+            <span class="mb-0 letter-spacing">{{ .subtitle | markdownify }}</span>
             <h1 class="mb-4">{{ .title | markdownify }}</h1>
             <p class="mb-5">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
@@ -34,12 +34,12 @@
 
 {{ if $data.homepage.banner_feature.enable}}
 {{ with $data.homepage.banner_feature}}
-{{ "<!-- banner feature -->" | safeHTML }}
+{{ "<!-- bannière -->" | safeHTML }}
 <section class="banner-feature-wrapper">
   <div class="container">
     <div class="row justify-content-center">
       {{ range .feature_item }}
-      {{ "<!-- feature item -->" | safeHTML }}
+      {{ "<!-- détails -->" | safeHTML }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="bg-white py-5 px-4 text-center box-shadow banner-feature">
           {{ with .icon }}
@@ -55,26 +55,26 @@
     </div>
   </div>
 </section>
-{{ "<!-- /banner feature -->" | safeHTML }}
+{{ "<!-- /bannière -->" | safeHTML }}
 {{ end }}
 {{ end }}
 
 {{ if $data.homepage.about.enable }}
-{{ "<!-- about us -->" | safeHTML }}
+{{ "<!-- à propos -->" | safeHTML }}
 <section class="section pt-0">
   {{ partial "about.html" . }}
 </section>
-{{ "<!-- /about us -->" | safeHTML }}
+{{ "<!-- /à propos -->" | safeHTML }}
 {{ end }}
 
 {{ if $data.homepage.funfacts.enable }}
 {{ with $data.homepage.funfacts }}
-{{ "<!-- funfacts -->" | safeHTML }}
+{{ "<!-- rassurance 1 -->" | safeHTML }}
 <section class="funfacts">
   <div class="container">
     <div class="row bg-secondary p-5">
       {{ range .funfacts_item }}
-      {{ "<!-- funfacts item -->" | safeHTML }}
+      {{ "<!-- détails -->" | safeHTML }}
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="d-flex align-items-center">
           <i class="fa {{ .icon }} icon-lg mr-3 text-primary"></i>
@@ -88,7 +88,7 @@
     </div>
   </div>
 </section>
-{{ "<!-- /funfacts -->" | safeHTML }}
+{{ "<!-- /rassurance 1 -->" | safeHTML }}
 {{ end }}
 {{ end }}
 
