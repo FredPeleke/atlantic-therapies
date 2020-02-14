@@ -19,6 +19,11 @@ sections:
   label: Pages de base
   create: all
   match: "**/*"
+- type: directory
+  path: content/english/contact
+  label: Contact
+  create: all
+  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
