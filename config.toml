@@ -37,10 +37,14 @@ weight = 4
 URL = "blog"
 name = "Blog"
 weight = 3
+[[menu.main]]
+URL = "Hypnose"
+name = "Hypnose"
+weight = 2
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "Avenue des Pyrénées, Anglet"
+address = "22, Avenue des Pyrénées, Anglet"
 author = "WebPlusUn"
 contact_form_action = "#"
 description = "This is meta description"
