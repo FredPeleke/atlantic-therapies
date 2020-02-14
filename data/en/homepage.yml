@@ -10,7 +10,7 @@ slider:
       bg_image : "images/slider/Atlantic-therapie-hero1.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
       button:
-        enable : true
+        enable : false
         label : "more details"
         link : "about"
         animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
@@ -47,7 +47,14 @@ about:
   enable : true
   subtitle : "About Us"
   title : "We Are Dynamic Team and Business Agency"
-  content : "Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium."
+  content : "Je vous accompagne pour vous aider à trouver en vous les ressources ou les réponses nécessaires pour avancer, traverser une épreuve ou encore atteindre un objectif.
+
+Cet accompagnement peut être lié à une situation particulière, une souffrance ponctuelle, un désir de dépasser un comportement ou un problème récurrent qui nuit à leur équilibre, leur développement personnel ou tout simplement leur bonheur.
+
+Le choix et la durée de la thérapie sont définis en fonction de la personne et avec son assentiment.
+
+Je m’inscris dans une relation d’aide et d’écoute actives et bienveillantes, et dans une démarche de confiance réciproque avec les personnes qui me consultent.
+"
   bg_image : "images/backgrounds/about-us-bg.png"
   image_webp : "images/about/about-us.webp"
   image : "images/about/about-us.png"
