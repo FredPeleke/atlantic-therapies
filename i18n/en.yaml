@@ -17,7 +17,7 @@
   translation: Envoyez un message
 
 - id: follow
-  translation: et suivez-moi sur
+  translation: Suivez-moi sur
 
 - id: services
   translation: Services
@@ -32,7 +32,7 @@
   translation: S'inscrire
 
 - id: connect_with_us
-  translation: Suivez-moi sur
+  translation: et suivez-moi sur
 
 - id: call_now
   translation: Appelez- moi
