@@ -12,7 +12,7 @@ footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm 
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 2
+weight = 1
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 [WebPlusUn](https://webplusun.fr)"
@@ -20,7 +20,7 @@ footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm 
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = 1
+weight = 2
 [[menu.footer]]
 URL = "privacy-policy"
 name = "Politique de confidentialité"
