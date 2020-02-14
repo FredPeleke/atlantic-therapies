@@ -29,27 +29,16 @@ weight = 1
 URL = "privacy-policy"
 name = "Politique de confidentialité"
 weight = 2
-[[menu.main]]
-URL = "Psycho-praticienne"
-name = "Psycho-praticienne"
-weight = 2
-[[menu.main]]
-URL = "Hypnose"
-name = "Hypnose"
-weight = 3
-[[menu.main]]
-URL = "Pour qui ?"
-name = "Psycho-praticienne"
-weight = 4
+
 [[menu.main]]
 URL = "blog"
 name = "Blog"
 <<<<<<< HEAD
-weight = 5
+weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 6
+weight = 3
 =======
 weight = 3
 [[menu.main]]
