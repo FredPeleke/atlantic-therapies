@@ -29,23 +29,14 @@ weight = 1
 URL = "privacy-policy"
 name = "Politique de confidentialité"
 weight = 2
-
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-<<<<<<< HEAD
 weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 3
-=======
-weight = 3
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
->>>>>>> 227162e2a9cb6d30270ebf6b1e73663168dc1c6b
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
