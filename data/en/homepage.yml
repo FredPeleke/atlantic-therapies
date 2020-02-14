@@ -5,7 +5,7 @@ slider:
     # slider item
     - subtitle : ""
       title : "Psychopraticienne & Hypnothérapeute"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "Je reçois dans mon cabinet à Anglet, sur la Côte Basque, des adultes, des adolescents et des enfants qui éprouvent le besoin d’être accompagnés et aidés à un moment de leur vie. "
       bg_image_webp : "images/slider/Atlantic-therapie-hero1.webp"
       bg_image : "images/slider/Atlantic-therapie-hero1.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
