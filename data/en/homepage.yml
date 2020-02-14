@@ -59,8 +59,8 @@ Je m’inscris dans une relation d’aide et d’écoute actives et bienveillant
   image_webp : "images/about/about-us.webp"
   image : "images/about/about-us.png"
   button:
-    enable : false
-    label : "more service"
+    enable : true
+    label : "en savoir plus"
     link : "service"
 
 ################################## funfacts ###############################
