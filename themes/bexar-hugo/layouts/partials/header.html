@@ -31,7 +31,7 @@
   <div class="navigation bg-white position-relative">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid pb-lg-3" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid pb-lg-3" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a><!-- lien logo-->
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,13 @@
         <div class="collapse navbar-collapse text-center" id="navigation">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a>
+              <a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a><!-- lien accueil -->
             </li>
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }} <!-- sous menu -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
+                aria-expanded="false"><!-- l'intitulé ne peut être un lien : # -->
                 {{ .Name }}
               </a>
               <div class="dropdown-menu" >
@@ -57,14 +57,13 @@
             </li>
             {{ else }} <!-- menu-->
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-              <!-- <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>-->
+              <a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
             {{ end }}
           </ul>
 
-          <!-- Language List -->
+          <!-- Liste des langues -->
           {{ if .IsTranslated }}
           <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
             {{ $siteLanguages := .Site.Languages}}
@@ -86,7 +85,7 @@
           {{ end }}
 
           {{ if .Site.Params.search }}
-          {{ "<!-- search -->" | safeHTML }}
+          {{ "<!-- barre de recherche -->" | safeHTML }}
           <div class="search px-4">
             <button id="searchOpen" class="search-btn"><i class="fa fa-search text-dark"></i></button>
             <div class="search-wrapper">
@@ -98,7 +97,7 @@
           </div>
           {{ end }}
           {{ if .Site.Params.navigation_button.enable }}
-          {{ "<!-- get start btn -->" | safeHTML }}
+          {{ "<!-- bouton de contact -->" | safeHTML }}
           <a href="{{ .Site.Params.navigation_button.link | absLangURL }}" class="btn btn-primary hover-ripple">{{ .Site.Params.navigation_button.label }}</a>
           {{ end }}
         </div>
