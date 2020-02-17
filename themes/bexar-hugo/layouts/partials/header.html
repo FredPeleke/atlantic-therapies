@@ -43,7 +43,7 @@
               <a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a>
             </li>
             {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
+            {{ if .HasChildren }} <!-- sous menu -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
@@ -55,9 +55,10 @@
                 {{ end }}
               </div>
             </li>
-            {{ else }}
+            {{ else }} <!-- menu-->
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+              <!-- <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>-->
             </li>
             {{ end }}
             {{ end }}
