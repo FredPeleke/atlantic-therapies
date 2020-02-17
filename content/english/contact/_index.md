@@ -3,9 +3,5 @@ title: Contactez-moi
 description: this is meta description
 bg_image_webp: images/backgrounds/page-title.webp
 bg_image: images/backgrounds/page-title.jpg
-menu:
-  main:
-    name: Contact
-    weight: 5
 
 ---
