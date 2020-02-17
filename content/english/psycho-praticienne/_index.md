@@ -1,6 +1,8 @@
 ---
 title: Psycho-praticienne
-description: this is meta description
+description: Mon objectif du psycho-praticien est de vous aider à trouver un mieux-être
+  et à développer vos ressources personnelles afin de retrouver une sécurité intérieure
+  pour affronter votre quotidien.
 bg_image_webp: images/backgrounds/page-title.webp
 bg_image: images/backgrounds/page-title.jpg
 
