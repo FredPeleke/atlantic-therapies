@@ -3,6 +3,10 @@ bg_image = ""
 bg_image_webp = ""
 description = ""
 titre = "Infos pratiques"
+[menu.main]
+name = "Infos pratiques"
+parent = "Contact"
+weight = 1
 
 +++
 Consultations au cabinet. Je reçois du lundi au vendredi, de 8h à 20h et le samedi de 9h à 13h.

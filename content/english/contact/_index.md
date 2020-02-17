@@ -1,9 +1,11 @@
 ---
-title: "Contact Us"
-# meta description
-description: "this is meta description"
-# page title background image
-bg_image_webp: "images/backgrounds/page-title.webp"
-bg_image: "images/backgrounds/page-title.jpg"
----
+title: Contactez-moi
+description: this is meta description
+bg_image_webp: images/backgrounds/page-title.webp
+bg_image: images/backgrounds/page-title.jpg
+menu:
+  main:
+    name: Contact
+    weight: 5
 
+---
