@@ -4,18 +4,18 @@
   <div class="section bg-secondary">
     <div class="container">
       <div class="row justify-content-between">
-        <!-- footer content -->
+        <!-- footer contenu -->
         <div class="col-lg-5 mb-5 mb-lg-0">
           <!-- logo -->
           <a class="mb-4 d-inline-block" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid"
               src="{{ .Site.Params.logo_footer | absURL }}" alt="{{ .Site.Title }}"></a>
           <p class="text-light mb-5">{{ .Site.Params.footer_content | markdownify }}</p>
           <h4 class="text-white mb-4">{{ i18n "follow" }}</h4>
-          <!-- social links -->
+          <!-- réseaux sociaux -->
           <ul class="list-inline social-icon-alt">
             {{ range .Site.Params.social }}
             <li class="list-inline-item">
-              <a class="hover-ripple" href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a>
+              <a class="hover-ripple" href="{{ .link | safeURL }}" rel="noopenner"><i class="fa {{ .icon }}"></i></a>
             </li>
             {{ end }}
           </ul>
@@ -32,7 +32,7 @@
                 {{ end }}
               </ul>
             </div>
-            <!-- contact info -->
+            <!-- infos contact -->
             <div class="col-6 mb-5">
               <h4 class="text-white mb-4">{{ i18n "contact_info"}}</h4>
               <ul class="list-unstyled">
