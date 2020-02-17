@@ -21,14 +21,55 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[[menu.footer]]
-URL = "terms"
-name = "Mentions légales"
-weight = 1
-[[menu.footer]]
-URL = "privacy-policy"
-name = "Politique de confidentialité"
+########################### navigation ################################
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about"
 weight = 2
+
+[[menu.main]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 4
+
+[[menu.main]]
+name = "Team"
+URL = "team"
+weight = 6
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
+
+[[menu.main]]
+weight = 8
+name = "Pages"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Project"
+  URL = "project"
+
+# footer menu
+[[menu.footer]]
+name = "Mentions légales"
+URL = "terms"
+weight = 1
+
+[[menu.footer]]
+name = "Politique de confidentialité"
+URL = "privacy-policy"
+weight = 2
+########################### paramètres ################################
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
