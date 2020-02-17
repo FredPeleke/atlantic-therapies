@@ -24,39 +24,29 @@ weight = 2
 ########################### navigation ################################
 # main menu
 [[menu.main]]
-name = "About"
-URL = "about"
+name = "Psycho-praticienne"
+URL = "psycho-praticienne"
 weight = 2
 
 [[menu.main]]
-name = "Service"
-URL = "service"
+name = "Hypnose"
+URL = "Hypnose"
 weight = 3
+
+[[menu.main]]
+name = "Pour qui"
+URL = "pour-qui"
+weight = 4
 
 [[menu.main]]
 name = "Blog"
 URL = "blog"
-weight = 4
-
-[[menu.main]]
-name = "Team"
-URL = "team"
-weight = 6
+weight = 5
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 7
-
-[[menu.main]]
-weight = 8
-name = "Pages"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Project"
-  URL = "project"
+weight = 6
 
 # footer menu
 [[menu.footer]]
