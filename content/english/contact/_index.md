@@ -6,6 +6,6 @@ bg_image: images/backgrounds/page-title.jpg
 menu:
   main:
     name: Contact
-    weight: 5
+    weight: 6
 
 ---

@@ -6,7 +6,7 @@ titre = "Infos pratiques"
 [menu.main]
 name = "Infos pratiques"
 parent = "Contact"
-weight = 1
+weight = 5
 
 +++
 Consultations au cabinet. Je reçois du lundi au vendredi, de 8h à 20h et le samedi de 9h à 13h.
