@@ -4,29 +4,29 @@
 
 {{ partial "page-title.html" . }}
 
-{{ "<!-- contact items -->" | safeHTML }}
+{{ "<!-- contact -->" | safeHTML }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
-      {{ "<!-- Addresses -->" | safeHTML }}
+      {{ "<!-- Adresses -->" | safeHTML }}
       <div class="col-md-4 mb-4 mb-md-0">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
           <i class="fa fa-map-marker text-primary icon-lg mb-4"></i>
-          <h4 class="mb-4">{{ i18n "address" }}</h4>
+          <span class="mb-4">{{ i18n "address" }}</span>
           <p>{{ .Site.Params.address | markdownify }}</p>
         </div>
       </div>
       <div class="col-md-4 mb-4 mb-md-0">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
           <i class="fa fa-phone text-primary icon-lg mb-4"></i>
-          <h4 class="mb-4">{{ i18n "phone" }}</h4>
+          <span class="mb-4">{{ i18n "phone" }}</span>
           <p>{{ .Site.Params.mobile | markdownify }}</p>
         </div>
       </div>
       <div class="col-md-4 mb-4 mb-md-0">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
           <i class="fa fa-envelope text-primary icon-lg mb-4"></i>
-          <h4 class="mb-4">{{ i18n "email" }}</h4>
+          <span class="mb-4">{{ i18n "email" }}</span>
           <p>{{ .Site.Params.email | markdownify }}</p>
         </div>
       </div>
@@ -35,7 +35,7 @@
 </section>
 {{ "<!-- /contact item -->" | safeHTML }}
 
-{{ "<!-- contact form and map -->" | safeHTML }}
+{{ "<!-- formulaire de contact et map -->" | safeHTML }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -50,27 +50,27 @@
       </div>
       {{ end }}
       <div class="col-md-7">
-        <h3 class="section-title">{{ i18n "contact_form" }}</h3>
+        <span class="section-title">{{ i18n "contact_form" }}</span>
         <form action="{{ .Site.Params.contact_form_action }}" method="POST" class="row">
           <div class="col-md-6">
             <input type="text" name="name" id="name" class="form-control border-0 rounded-0 box-shadow mb-4"
-              placeholder="Name">
+              placeholder="Votre nom">
           </div>
           <div class="col-md-6">
             <input type="email" name="mail" id="mail" class="form-control border-0 rounded-0 box-shadow mb-4"
-              placeholder="Email">
+              placeholder="Votre email">
           </div>
           <div class="col-md-6">
             <input type="text" name="phone" id="phone" class="form-control border-0 rounded-0 box-shadow mb-4"
-              placeholder="Phone">
+              placeholder="Votre numéro de téléphone">
           </div>
           <div class="col-md-6">
             <input type="text" name="subject" id="subject" class="form-control border-0 rounded-0 box-shadow mb-4"
-              placeholder="Subject">
+              placeholder="Sujet">
           </div>
           <div class="col-12">
             <textarea name="message" id="message" class="form-control border-0 rounded-0 box-shadow mb-5 py-3 px-4"
-              placeholder="Your Message"></textarea>
+              placeholder="Votre Message"></textarea>
           </div>
           <div class="col-12">
             <button type="submit" value="send" class="btn btn-primary hover-ripple">{{ i18n "send" }}</button>
@@ -80,6 +80,6 @@
     </div>
   </div>
 </section>
-{{ "<!-- /contact form and map -->" | safeHTML }}
+{{ "<!-- /formulaire de contact et map -->" | safeHTML }}
 
 {{ end }}
