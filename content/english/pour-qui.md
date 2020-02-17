@@ -3,9 +3,6 @@ bg_image = ""
 bg_image_webp = ""
 description = ""
 titre = "Pour qui et pour quoi ?"
-[menu.main]
-name = "Pour qui"
-weight = 3
 
 +++
 Je reçois des adultes, des enfants, des adolescents et des couples.

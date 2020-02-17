@@ -4,9 +4,6 @@ bg_image_webp = ""
 description = ""
 texte = ""
 titre = "Psycho-praticienne"
-[menu.main]
-name = "Psycho-praticienne"
-weight = 1
 
 +++
 > Regarder l’autre, l’écouter, lui sourire, s’intéresser à lui, c’est le commencement de l’être humain. - _Sœur Emmanuelle_
