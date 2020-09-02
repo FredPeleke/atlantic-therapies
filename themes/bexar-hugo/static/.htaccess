@@ -18,5 +18,5 @@ AddOutputFilterByType DEFLATE image/svg+xml
 # REDIRECTIONS 301
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RedirectPermanent https://dev-atlantic-therapies.netlify.app/ https://atlantic-therapies.fr
+	RedirectPermanent https://atlantic-therapies.fr
 </IfModule>
