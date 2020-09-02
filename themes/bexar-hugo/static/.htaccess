@@ -14,3 +14,9 @@ AddOutputFilterByType DEFLATE image/gif
 AddOutputFilterByType DEFLATE image/jpeg
 AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
+
+# REDIRECTIONS 301
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RedirectPermanent https://dev-atlantic-therapies.netlify.app/ https://atlantic-therapies.fr
+</IfModule>
